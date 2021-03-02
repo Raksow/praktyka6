@@ -1,8 +1,11 @@
 package com.raksow;
 
-public enum Engine
+public class Engine
 {
-    V12,
-    V8,
-    V6,
+    String silnik;
+
+    public Engine(String silnik)
+    {
+        this.silnik = silnik;
+    }
 }

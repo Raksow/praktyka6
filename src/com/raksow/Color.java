@@ -1,13 +1,11 @@
 package com.raksow;
 
-public enum Color
+public class Color
 {
-    CZERWONY,
-    ZIELONY,
-    CZARNY,
-    ROZOWY,
-    BIALY,
-    NIEBIESKI,
-    FIOLETOWY,
-    CZARNYMAT
+    String kolor;
+
+    public Color(String kolor)
+    {
+        this.kolor = kolor;
+    }
 }

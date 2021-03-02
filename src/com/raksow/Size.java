@@ -1,9 +1,11 @@
 package com.raksow;
 
-public enum Size
+public class Size
 {
-    MALY,
-    SREDNI,
-    DUZY,
-    OGROMNY
+    String rozmiar;
+
+    public Size(String rozmiar)
+    {
+        this.rozmiar = rozmiar;
+    }
 }

@@ -3,21 +3,21 @@ package com.raksow;
 public class Vechicle
 {
     String model;
-    Engine silnik;
-    Color kolor;
-    Size rozmiar;
+    Engine engine;
+    Color color;
+    Size size;
 
     public Vechicle(String model, Engine silnik, Color kolor, Size rozmiar)
     {
         this.model = model;
-        this.silnik = silnik;
-        this.kolor = kolor;
-        this.rozmiar = rozmiar;
+        this.engine = silnik;
+        this.color = kolor;
+        this.size = rozmiar;
     }
 
     @Override
     public String toString()
     {
-        return String.format(model+ " jest " +rozmiar+ ", ma silnik " +silnik+ " i jest koloru " +kolor);
+        return model+ " jest " +size.rozmiar+ ", ma silnik " + engine.silnik+ " i jest koloru " +color.kolor;
     }
 }
